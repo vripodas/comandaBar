@@ -1,0 +1,40 @@
+.contenedorGrande {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contenedorMesas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedorMesas2 { 
+    display: flex;
+    
+}
+
+.mesasBar {
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: rgba(69, 231, 69, 0.9);  
+    /* margin-top: 10px;   */
+    color: black;
+}
+
+#historialComandas {
+    width: 50%;
+    text-align: center;
+}
+
+#historialDiv {
+    width: 50%;
+    text-align: center;
+}
+
+
+

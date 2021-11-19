@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>ComandaBar</h1>
+
+    <div class="contenedorGrande">
+        <div class="contenedor-1">
+            <h3>Seleccionar una mesa</h3>
+            <select name="" id="mesas">
+            </select>
+
+
+            <h3>Seleccionar un producto</h3>
+            <select name="" id="comidas">
+                <option value="Seleccionar">Seleccionar</option>
+                <option value="Coca-Cola">Coca-Cola</option>
+                <option value="Pepsi">Pepsi</option>
+                <option value="Sprite">Sprite</option>
+                <option value="Ravioles">Ravioles</option>
+                <option value="Hamburguesa">Hamburguesa</option>
+                <option value="Papas Fritas">Papas Fritas</option>
+            </select>
+            <input type="number" id="cantidad" placeholder="Ingrese cantidad de productos">
+
+            <br>
+            <br>
+
+            <button id="enviarComanda">Agregar</button>
+
+        </div>
+
+        <div class="contenedor-2">
+            <h3>Crear mesas</h3>
+            <input type="number" name="" id="nuevasMesas">
+            <br><br>
+            <button id="crearMesas">Crear</button>
+        </div>
+
+        <div class="contendor-3">
+            <h3>Liquidar Mesa</h3>
+            <input type="number" name="" id="liquidarMesa" placeholder="Ingrese la mesa a liquidar">
+            <br><br>
+            <button class="" id="btn-liquidar">Liquidar</button>
+            
+        </div>
+
+    </div>
+
+    <div class="contenedorMesas2">
+        <div class="contenedorMesas" id="historialDiv">
+           
+        </div>
+        <div id="historialComandas">
+            <p>Historial de Comandas</p>
+        </div>
+    </div>
+    
+
+
+</body>
+<script src="../js/misScripts.js"></script>
+
+</html>
